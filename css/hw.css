@@ -31,7 +31,7 @@ td{
      font-weight: bold;
      text-align:center;
 }
-/* This will add color to all the even coloums */
+/* This will add color to all the odd coloums */
 td:nth-child(2n+1) {
   background-color: lightblue;
 }
