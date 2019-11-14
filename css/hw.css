@@ -1,0 +1,69 @@
+/*
+         Email:utsav_patel@student.uml.edu
+           Name: Utsav Patel
+           I am a junior/senoir at Umass Lowell in  91.61 GUI Programming I
+
+           91.461 Assignment:  Creating Your First Web Page
+           Utsav Patel, UMass Lowell Computer Science, upatel@cs.uml.edu
+           Copyright (c) 2019 by Utsav Patel.  All rights reserved.  May be
+           freely copied or excerpted for educational purposes with credit to
+           the author.
+           updated by UP on Novermber 14th, 2019 at 9:23 AM
+           w3schools.com was used for references
+*/
+/*padding for the table*/
+.heading{
+  text-align:center;
+}
+table {
+  padding-top:5px;
+  padding: 5px;
+  border: solid 2px Black;
+}
+
+/*this will add the background color and color to the number*/
+th {
+background-color: darkgray;
+color:orange;
+}
+
+td{
+     font-weight: bold;
+     text-align:center;
+}
+/* This will add color to all the even coloums */
+td:nth-child(2n+1) {
+  background-color: lightblue;
+}
+
+/* adds gradient in the form and align it in center*/
+form {
+  background-image: linear-gradient(green, orange);
+  text-align:center;
+  padding: 25px;
+}
+/*changes the color of the button/input to gray and orange.*/
+
+
+.calculate{
+background-image: linear-gradient(purple, yellow);
+color: black;
+border: 10px;
+cursor: pointer;
+padding:100px;
+ display: inline;
+
+}
+.reset {
+  background-image: linear-gradient(red, orange);
+color: black;
+border: 10px;
+padding:100px;
+cursor: pointer;
+
+}
+.paragraph
+{
+  color:red;
+  text-align: center;
+}
