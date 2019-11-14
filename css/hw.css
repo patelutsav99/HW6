@@ -42,9 +42,7 @@ form {
   text-align:center;
   padding: 25px;
 }
-/*changes the color of the button/input to gray and orange.*/
-
-
+/*adds graident to the calculate and reset button*/
 .calculate{
 background-image: linear-gradient(purple, yellow);
 color: black;
